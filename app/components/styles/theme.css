@@ -1,0 +1,37 @@
+:root {
+  /* Light (default) */
+  --bg: #ffffff;
+  --text: #111827;
+  --muted: #6b7280;
+
+  --card: #fafafa;
+  --border: #eeeeee;
+
+  --table-border: #eeeeee;
+  --row-border: #f2f2f2;
+
+  --accent: #16a34a;   /* green */
+  --accent-weak: rgba(22,163,74,0.08);
+}
+
+/* Dark theme */
+.theme-dark {
+  --bg: #0b0f14;
+  --text: #e6f4ea;
+  --muted: #9fb3a9;
+
+  --card: #0e1116;
+  --border: #1f242c;
+
+  --table-border: #1f242c;
+  --row-border: #182029;
+
+  --accent: #22c55e;
+  --accent-weak: rgba(34,197,94,0.12);
+}
+
+/* Optional: make the page background follow the theme */
+html, body {
+  background: var(--bg);
+  color: var(--text);
+}
